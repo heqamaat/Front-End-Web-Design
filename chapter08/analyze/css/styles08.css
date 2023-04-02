@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Drea Cologgi
+Date: March 27
+File Name: styles08.css
 */
 
 /* Style for body specifies a background color */
@@ -25,8 +25,47 @@ footer {
 	text-align: center;
 }
 
+fieldset, input {
+	margin-bottom: 2%;
+}
+
+fieldset legend {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+/* This seemed necessary but not in instructions */
+input {
+	display: block;
+}
+
+.btn {
+	border: 0;
+	margin: 0 auto;
+	display: block;
+	padding: 5%;
+	background-color: #003399;
+	font-size: 1.25em;
+	border-radius: 10px;
+	color: #fff;
+}
+
 /* Media query for tablet layout */ 
 @media only screen and (min-width: 600px) {
+	form {
+		width: 80%;
+		margin: 0 auto;
+	}
 
+	.grid {
+		display: grid;
+		grid-template-columns: auto auto;
+		gap: 20px;
+	}
+
+	.btn {
+		grid-column: 1 / span 2;
+		padding: 3%;
+	}
     
 }

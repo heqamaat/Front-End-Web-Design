@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Drea Cologgi
+Date: March 27
+File Name: apply08.css
 */
 
 /* CSS Reset */
@@ -26,4 +26,38 @@ body {
 footer {
 	font-size: .70em;
 	text-align: center;
+}
+
+/* Style for table elements */
+table {
+	width: 80%;
+	margin: 0 auto;
+	border: 3px solid #71881b;
+}
+
+table, tr, th, td {
+	border-collapse: collapse;
+	padding: 2%;
+}
+
+/* Style for caption element */
+caption {
+	font-size: 2em;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+/* Style for cell borders */
+th, td {
+	border: 1px solid #7188bb;
+}
+
+/* Style for cell text */
+td {
+	text-align: center;
+}
+
+/* Style for row background */
+tr:nth-child(odd) {
+	background-color: #d3e788;
 }
