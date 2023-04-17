@@ -1,0 +1,34 @@
+
+  
+  
+Title Page
+Table of Contents
+Introduction – (should include what this project idea is about) - minimum 150 words
+ Target audience/users
+
+    Describe the target audience  - minimum 50 words
+    Create Personas (1 persona) (If you do not have much time, then you can draw it by hand or use a software)
+
+Sitemap (If you do not have much time, then you can draw it by hand or use a software)
+    On Miro
+
+Wireframes (1 wireframe of the home page) (If you do not have much time, then you can draw it by hand or use a software)
+    On Figma
+
+Content –text, images, videos, logos, etc. (as much as you can)
+Color scheme –please provide your reasons (minimum 25 words) for choosing the specific color scheme. Provide a screenshot of the color scheme.
+    The 
+
+
+
+    User's name
+    A photo of your persona (feel free to use a google image search...your persona needs to have a face!)
+    A quote from your persona that captures their personality in some way
+    Demographic information
+        Age
+        Job title
+        Location (City, State)
+        Family information (Are they single? Married? Divorced? Kids?)
+    Values & interests (list a few things that are important to them)
+    Goals & aspirations (career, education, travel)
+    Extra details (anything to make him/her seem more real)

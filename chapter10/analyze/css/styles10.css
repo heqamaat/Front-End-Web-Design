@@ -1,6 +1,6 @@
 /*
-    Author:
-    Date:
+    Author: Drea Cologgi
+    Date: April 10,2023
     File Name: styles.css
 */
 
@@ -54,6 +54,14 @@ main {
 	border-radius: 6px;
 	background-color: #fff;
 	border: inset 0.2em #7a6d68; 
+}
+
+figure {
+	text-align: center;
+}
+
+img {
+	padding: 1em;
 }
 
 footer {

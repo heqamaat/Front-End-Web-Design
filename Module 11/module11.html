@@ -1,0 +1,61 @@
+<!-- Adjusted indentation and spacing for entire document -->
+<!DOCTYPE html>
+
+<!-- added lang attribute to html tag -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>~Assignment 1~</title>
+
+    <script>
+
+        function myGame() {
+
+            var compNum = 6;
+
+            //assign the value of myText to variable. Fixed variable capitalization.
+            var thisNum = document.myForm.myText.value;
+
+            //first if statement added to validate requested range. Fixed variable capitalization.
+            if (thisNum < 0 || thisNum > 10) {
+
+                alert("Please select a number between 0 and 10");
+                
+            } else if(thisNum == compNum) {
+
+                alert("Congratulations! Your number matched with the computer number.");
+
+            } else {
+
+                alert("Your number does not match. Please try again.");
+
+            }
+        }
+
+    </script>
+
+  </head>
+
+  <body>
+    <h3>Assignment 1</h3>
+
+    <p>
+      Please type in a number in between 1 and 10 and see if it matches with the
+      computer number.
+    </p>
+
+    <!-- Fixed inccorect capitalization of 'myform' -->
+    <form name="myForm">
+        <input type="text" name="myText" id="myText" size="40" />
+
+        <!-- Fixed spelling and capitalization of click handler -->
+        <input
+        type="button"
+        name="button1"
+        value="Click Here"
+        onclick="myGame()"
+      />
+    </form>
+  </body>
+</html>
