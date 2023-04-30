@@ -1,7 +1,7 @@
 /*
-    Student Name
-	File Name: 
-	Current Date: 
+    Student Name: Drea Cologgi
+	File Name: analyze11.css
+	Current Date: April 30, 2023
 */
 
 /* CSS reset */
@@ -59,4 +59,9 @@ footer {
 	text-align: center;
 	margin-top: 2em;
 	color: #fff;
+	padding-bottom: 10px;
+}
+
+footer img {
+	margin: auto 10px;
 }
